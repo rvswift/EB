@@ -228,12 +228,12 @@ def calculate_ef_covar(ef_structure1, ef_structure2):
     # covariance due to actives = E[{gamma2 - E(gamma2)a} * {gamma1 - E(gamma1)a}]a
     gamma1 = [x[4] for x in actives1]
     gamma2 = [x[4] for x in actives2]
-    covara = np.cov(gamma1, gamma2, ddof=1)[0][1]
+    covara = np.cov(gamma1, gamma2)[0][1]
 
     # covariance due to decoys = E[{gamma2 - E(gamma2)d} * {gamma1 - E(gamma1)d}]
     gamma1 = [x[4] for x in decoys1]
     gamma2 = [x[4] for x in decoys2]
-    covard = np.cov(gamma1, gamma2, ddof=1)[0][1]
+    covard = np.cov(gamma1, gamma2)[0][1]
 
     return covara, covard
 
@@ -370,12 +370,12 @@ def calculate_auc_covar(auc_structure1, auc_structure2):
     # covariance due to actives = E[{fpf2 - E(fpf2)a} * {fpf1 - E(fpf1)a}]a
     fpf1 = [x[4] for x in actives1]
     fpf2 = [x[4] for x in actives2]
-    covara = np.cov(fpf1,fpf2, ddof=1)[0][1]
+    covara = np.cov(fpf1,fpf2)[0][1]
 
     # covariance due to decoys = E[{tpf2 - E(tpf2)d} * {tpf1 - E(tpf1)d}]
     tpf1 = [x[5] for x in decoys1]
     tpf2 = [x[5] for x in decoys2]
-    covard = np.cov(tpf1,tpf2, ddof=1)[0][1]    # this is only compatible with versions >= 1.5
+    covard = np.cov(tpf1,tpf2)[0][1]    # this is only compatible with versions >= 1.5
 
     return covara, covard
 

@@ -26,6 +26,18 @@ modes: """
 
 
 def main(argv=[__name__]):
+    try:
+        import numpy
+    except ImportError:
+        print("NumPy must be installed")
+        print("try running: pip install numpy")
+        return 1
+    try:
+        import scipy
+    except ImportError:
+        print("SciPy must be installed")
+        print("try: pip install scipy")
+        return 1
     if len(argv) == 1 or argv[1] not in apps:
         print(help_string)
         for mode in app_names:
