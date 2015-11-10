@@ -9,8 +9,8 @@ install_requirements = [
     'matplotlib>=1.4.2',
 ]
 
-for requirement in install_requirements:
-    pip.main(['install'] + [requirement])
+#for requirement in install_requirements:
+#    pip.main(['install'] + [requirement])
 
 try:
     from setuptools import setup

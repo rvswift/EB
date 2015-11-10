@@ -304,7 +304,7 @@ def calculate_auc_var(auc_structure):
     fpf = [x[4] for x in actives]
     aucvar_a = np.var(fpf, ddof=1, dtype=np.float64)
 
-    # variance due to decoys = E[ (tpf - E(tpf)d) ** ]d
+    # variance due to decoys = E[ (tpf - E(tpf)d) ** 2]d
     tpf = [x[5] for x in decoys]
     aucvar_d = np.var(tpf, ddof=1, dtype=np.float64)
 

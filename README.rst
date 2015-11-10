@@ -17,4 +17,16 @@ Ensemble Builder
 Features
 --------
 
-* TODO
+* Works with Python 2.6, 2.7, 3.0, 3.3, 3.4
+
+
+Installation
+------------
+Installation prerequisites
+ * NumPy: www.numpy.org
+ * SciPy: www.scipy.org
+
+.. code:: bash
+  git clone https://github.com/rvswift/EB
+  cd EB
+  make install
