@@ -31,14 +31,14 @@ Installation prerequisites
 
 .. code:: bash
 
-  git clone https://github.com/nbcrrolls/D3R
-  cd D3R
+  git clone https://github.com/rvswift/EB
+  cd EB
   make install
 
 Usage
 -----
 
-Run
+To run, type ensemblebuilder on the command line
 
 .. code:: bash
 
