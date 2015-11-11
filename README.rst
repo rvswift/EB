@@ -9,7 +9,8 @@ EB
         :target: https://pypi.python.org/pypi/EB
 
 
-Ensemble Builder
+EnsembleBuilder uses compound activity data to train structure based ensembles to prospectively classify active and
+inactive compounds.
 
 * Free software: BSD license
 * Documentation: https://EB.readthedocs.org.
