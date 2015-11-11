@@ -46,8 +46,8 @@ Run
 	        ensemblebuilder <mode> to show help for that mode.
 
   modes:
-    exhaustive	  Determine the best performer by considering all possible ensembles, O(2^N).
-    fastheuristic	  Determine the best ensemble using a O(N) heuristic.
-    slowheuristic	  Determine the best ensemble using an O(N^2) heuristic.
-    postanalysis	  Plot and analyze the performance of one or more ensembles.
-    splitter	  	  Split csv input into training and test sets.
+    exhaustive	    Determine the best performer by considering all possible ensembles, O(2^N).
+    fastheuristic	Determine the best ensemble using a O(N) heuristic.
+    slowheuristic	Determine the best ensemble using an O(N^2) heuristic.
+    postanalysis	Plot and analyze the performance of one or more ensembles.
+    splitter	  	Split csv input into training and test sets.
