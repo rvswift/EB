@@ -26,8 +26,8 @@ Installation
 
 Installation prerequisites
 
- * NumPy: www.numpy.org
- * SciPy: www.scipy.org
+* NumPy: www.numpy.org
+* SciPy: www.scipy.org
 
 .. code:: bash
 
