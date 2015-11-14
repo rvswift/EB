@@ -18,7 +18,7 @@ inactive compounds.
 Features
 --------
 
-* Works with Python 2.6, 2.7, 3.0, 3.3, 3.4
+* Works with Python 2.6, 2.7, 3.3, 3.4
 
 
 Installation
@@ -29,6 +29,11 @@ Installation prerequisites
 * NumPy: www.numpy.org
 * SciPy: www.scipy.org
 
+Install EnsembleBuilder with pip
+.. code:: bash
+  pip install EB
+
+Install EnsembleBuilder by cloning the GitHub repo
 .. code:: bash
 
   git clone https://github.com/rvswift/EB
