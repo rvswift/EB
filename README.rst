@@ -29,11 +29,6 @@ Installation prerequisites
 * NumPy: www.numpy.org
 * SciPy: www.scipy.org
 
-Install EnsembleBuilder with pip
-.. code:: bash
-  pip install EB
-
-
 Install EnsembleBuilder by cloning the GitHub repo
 .. code:: bash
 
