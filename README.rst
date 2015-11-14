@@ -30,6 +30,7 @@ Installation prerequisites
 * SciPy: www.scipy.org
 
 Install EnsembleBuilder by cloning the GitHub repo
+
 .. code:: bash
 
   git clone https://github.com/rvswift/EB
