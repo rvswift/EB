@@ -22,7 +22,7 @@ def write_roc(roc_structure, inputfilename, options, fw_type = None):
     if len(inputfilename.split('.')) == 1:
         rootname = inputfilename.split('.')
     else:
-        rootname = inputfilename.split('.')[0]
+        rootname = inputfilename.split('.csv')[0]
 
     # add '.csv' to the root name to give the name of the file
     if fw_type:
